@@ -52,6 +52,12 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 319px) {
+  .section__contact {
+    padding: 20px;
+  }
+}
+
 @media screen and (max-width: 740px) {
   .section__contact {
     flex-direction: column;

@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Digits!</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="images/favicon-16x16.png">
   </head>
   <body>
     <header class="header">
       <section class="section section__header">
         <nav class="header__navigation">
           <a
-            href="#footer"
+            href="#"
             class="logo--hover"
             id="header">
             <img
@@ -42,11 +46,15 @@
               <a href="#contact" class="link nav__link">Pricing</a>
             </li>
             <li class="nav__item">
-              <a href="#talk" class="link nav__link">Blog</a>
+              <a
+                href="#talk"
+                for="talk"
+                class="link nav__link">Blog
+              </a>
             </li>
           </ul>
           <div class="header__contact">
-            <label for="contact" class="contact__label"><a href="tel:00-123-456-789" class="link">+00 123456789</a></label>
+            <label for="contact"  class="contact__label"><a href="#contacts" class="link">+00 123456789</a></label>
             <button id="contact" class="button button__contact">
               <a href="tel:00-123-456-789">Contact Us</a>
             </button>
@@ -262,7 +270,7 @@
           <a href="#help" class="text link">About</a>
           <a href="#talk" class="text link">News</a>
           <a href="#buy" class="text link">Pricing</a>
-          <a href="#contact" class="text link">Contact</a>
+          <a href="#contacts" class="text link">Contact</a>
         </div>
         <div class="footer__demo">
           <h3 class="small-title">demo</h3>
